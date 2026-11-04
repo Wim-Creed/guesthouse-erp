@@ -1,0 +1,56 @@
+# Secrets and private settings
+server_secret.key
+network_config.json
+.env
+*.pem
+*.key
+*.jks
+*.keystore
+key.properties
+local.properties
+
+# Databases and data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.csv
+*.log
+employee_photos/
+backups/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Flutter and Android
+.dart_tool/
+build/
+coverage/
+.gradle/
+.kotlin/
+.pub-cache/
+.pub/
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+app.*.symbols
+app.*.map.json
+
+# Editors and system files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+.DS_Store
+.history
+.svn/
+migrate_working_dir/

@@ -1,0 +1,12 @@
+{
+  "DEVELOPMENT_LOOPBACK_TIER": [
+    "127.0.0.1",
+    "::1"
+  ],
+  "MANAGER_HARDWARE_TIER": [
+    "192.0.2.10"
+  ],
+  "RECEPTION_HARDWARE_TIER": [
+    "192.0.2.20"
+  ]
+}
