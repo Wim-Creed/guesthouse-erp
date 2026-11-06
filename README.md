@@ -157,7 +157,8 @@ Run `python pen_test.py`. It asks for the server address (press Enter to use `ht
 - Cross-origin requests are open to all origins, which is a development setting.
 - The wrong-password counters are kept in the server's memory, so restarting the server clears them.
 - The exchange rate only updates when the manager's phone has internet at login. The server and the tablet have none.
-- Text messages need a SIM card with airtime in the tablet.
+- In testing, a shop sale paid in US dollars cash was recorded when Enter was pressed but still showed "amount not sufficient", and pressing Enter again recorded the sale again. Paying in cedis works normally.
+- In testing, the booking text message was sent to the guest twice.
 
 More limits, and the improvements planned next, are in [SECURITY.md](SECURITY.md).
 
